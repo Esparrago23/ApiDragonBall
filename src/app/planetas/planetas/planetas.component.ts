@@ -1,6 +1,6 @@
 import { Component, OnInit, Input,Output, EventEmitter } from '@angular/core';
 import { PlanetaService } from '../services/planeta.service';
-import { Planeta } from '../../personajes/models/Planeta';
+import { Planeta } from '../../personajes/models/planeta';
 @Component({
   standalone: false,
   selector: 'app-planetas',

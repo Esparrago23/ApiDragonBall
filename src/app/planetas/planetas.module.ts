@@ -1,15 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PlanetasComponent } from './planetas/planetas/planetas.component';
+import { PlanetasComponent } from './planetas/planetas.component';
 
 
 
 @NgModule({
   declarations: [
-    PlanetasComponent
+    PlanetasComponent,
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    PlanetasComponent
   ]
 })
 export class PlanetasModule { }
